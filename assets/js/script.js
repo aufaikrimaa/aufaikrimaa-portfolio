@@ -183,6 +183,7 @@ const techData = [
   "./assets/images/javascript.svg",
   "./assets/images/node-js.svg",
   "./assets/images/reactjs.svg",
+  "./assets/images/redux.svg",
   "./assets/images/vite.svg",
   "./assets/images/expressjs.svg",
   "./assets/images/tailwind.svg",
