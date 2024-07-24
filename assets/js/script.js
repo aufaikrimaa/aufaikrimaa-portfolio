@@ -400,7 +400,7 @@ overlay.addEventListener("click", testimonialsModalFunc);
 const projectsData = [
   {
     id: 1,
-    title: "LensaKita (On Progress)",
+    title: "LensaKita",
     photo: "./assets/images/lensakita.png",
     lang: "ReactJs, ExpressJs, Tailwind, GSAP",
     desc: "Web Profile of LensaKita.",
@@ -458,16 +458,16 @@ const projectsData = [
     github: "https://github.com/aufaikrimaa/todolist-fe.git",
     category: "web development",
   },
-  {
-    id: 7,
-    title: "Agtsha",
-    photo: "./assets/images/agtsha.png",
-    lang: "ReactJs, Tailwind",
-    desc: "A website to showcasing the products and links.",
-    link: "https://agtsha-id.netlify.app/",
-    github: "https://github.com/aufaikrimaa/agtsha.id.git",
-    category: "web development",
-  },
+  // {
+  //   id: 7,
+  //   title: "Agtsha",
+  //   photo: "./assets/images/agtsha.png",
+  //   lang: "ReactJs, Tailwind",
+  //   desc: "A website to showcasing the products and links.",
+  //   link: "https://agtsha-id.netlify.app/",
+  //   github: "https://github.com/aufaikrimaa/agtsha.id.git",
+  //   category: "web development",
+  // },
 ];
 
 const projectsContainer = document.querySelector(".project-list");
