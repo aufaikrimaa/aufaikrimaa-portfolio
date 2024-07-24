@@ -144,7 +144,7 @@ const contactsData = [
   {
     ionic: "logo-linkedin",
     title: "LinkedIn",
-    link: "https://www.linkedin.com/in/aufa-ikrimah/",
+    link: "https://www.linkedin.com/in/aufaikrimah/",
     name: "linkedin.com/in/aufa-ikrimah/",
   },
   {
