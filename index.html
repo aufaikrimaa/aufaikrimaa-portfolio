@@ -11,7 +11,7 @@
   -->
     <link
       rel="shortcut icon"
-      href="./assets/images/for-logo.png"
+      href="./assets/images/aufa.jpg"
       type="image/x-icon"
     />
 
@@ -44,17 +44,13 @@
       <aside class="sidebar" data-sidebar>
         <div class="sidebar-info">
           <figure class="avatar-box">
-            <img
-              src="./assets/images/my-avatar.png"
-              alt="Richard hanrick"
-              width="80"
-            />
+            <img src="./assets/images/aufa.jpg" alt="Aufa Ikrimah" width="80" />
           </figure>
 
           <div class="info-content">
-            <h1 class="name" title="Richard hanrick">Aufa Ikrimah</h1>
+            <h1 class="name" title="Aufa Ikrimah">Aufa Ikrimah</h1>
 
-            <p class="title">Web developer</p>
+            <p class="title">Frontend Developer</p>
           </div>
 
           <button class="info_more-btn" data-sidebar-btn>
@@ -109,14 +105,15 @@
 
           <section class="about-text">
             <p>
-              I enjoy creating new things, especially in web development and
-              art. That's why I love both coding and painting. I greatly enjoy
-              discovering new things in both of them. I also like implementing
-              unique and creative designs into my websites. Recently, I've been
-              learning animation with GSAP. If you'd like to get in touch,
+              I enjoy creating new things, especially in frontend development
+              and art. That's why I love both coding and painting. I greatly
+              enjoy discovering new things in both of them. I also like
+              implementing unique and creative designs into my websites.
+              Recently, I've been learning TypeScript and animation with GSAP.
+              <!-- If you'd like to get in touch, feel free to
               <a href="mailto:aufaikrimah@gmail.com" class="email-link">
                 send me an email.
-              </a>
+              </a> -->
             </p>
           </section>
 
@@ -126,19 +123,49 @@
 
           <section class="service">
             <h3 class="h3 service-title">Tech Stack</h3>
-
             <div class="service-list"></div>
           </section>
 
           <!--
           - testimonials
         -->
+          <div style="display: flex; align-items: center; margin-top: 20px">
+            <div
+              style="width: 520px; font-size: 14px; margin-right: 32px"
+              class="about-end"
+            >
+              <p>
+                I'm open to exploring new opportunities and contributing to
+                innovative projects. Feel free to reach out to me via email or
+                through my social media channels!
+              </p>
+              <div
+                class="socmed-list"
+                style="display: flex; margin-top: 32px"
+              ></div>
+            </div>
+            <div
+              id="lottie-container"
+              style="width: 250px; height: 250px"
+            ></div>
+          </div>
 
-          <section class="testimonials">
-            <h3 class="h3 testimonials-title">Course & Certification</h3>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.14/lottie.min.js"></script>
+          <script>
+            var animation = lottie.loadAnimation({
+              container: document.getElementById("lottie-container"),
+              renderer: "svg",
+              loop: true,
+              autoplay: true,
+              path: "https://lottie.host/4d6e77e2-cd8c-4a0e-905e-53dc90c0d003/YdOt3tjPbC.json",
+            });
+          </script>
+          <!-- 
+          <section class="testimonials"> -->
+          <!-- <h3 class="h3 testimonials-title">Course & Certification</h3> -->
 
-            <div class="testimonials-list has-scrollbar"></div>
-          </section>
+          <!-- <div class="testimonials-list has-scrollbar"></div> -->
+          <!-- </section> -->
 
           <!--
           - testimonials modal
